@@ -90,6 +90,7 @@ workflows:
           filters:
             branches:
               only:
+                - infra-test
                 - test-infra
                 - test_prod_infra
       - hold:
@@ -102,6 +103,8 @@ workflows:
           filters:
             branches:
               only:
+                - infra-test
                 - test-infra
                 - test_prod_infra
+                
 
