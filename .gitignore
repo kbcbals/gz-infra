@@ -32,3 +32,5 @@ override.tf.json
 k8s/web/web-secrets.yaml
 k8s/celery/celery-secrets.yaml
 k8s/logging/basic-auth.yaml
+
+terraform
